@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <title>F1 Schedule</title>
+  </head>
+  <body>
+  <header>
+    <nav id="nav-bar">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="live_schedule.html" class="nav-button">Schedule</a>
+        <a href="live_detail_info.html" class="nav-button">Detail info</a>
+        <a href="contact_us.html" class="nav-button">Contact us</a>
+    </nav>
+  </header>
+  <main>
+      <div class="dropdown-menu">
+          <div class="vertical-content">
+              <label for="races">Select race</label>
+              <select name="races" id="races">
+                  <option value="race-1">Race 1</option>
+                  <option value="race-2">Race 2</option>
+                  <option value="race-3">Race 3</option>
+                  <option value="race-4">Race 4</option>
+              </select>
+          </div>
+      </div>
+    <div class="main-content-frame">
+        <img src="images/track_map_placeholder.jpg" alt="track map" class="track-map">
+        <h1 id="trackName">Track name</h1>
+        <div class="vertical-content">
+            <div class="schedule">
+                <div>
+                    <h4>Schedule</h4>
+                    <div class="vertical-content">
+                        <p>P1:</p>
+                        <p id="p1"></p>
+                        <p>P2:</p>
+                        <p id="p2"></p>
+                        <p>P3:</p>
+                        <p id="p3"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="vertical-content" style="margin-top: 24px">
+                        <p>Quali: </p>
+                        <p id="quali"></p>
+                        <p>Race: </p>
+                        <p id="race"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="race-info">
+                <div>
+                    <h4>Country: </h4>
+                    <h4>City: </h4>
+                </div>
+                <div>
+                    <h4> Race distance: </h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p id="race-dates">Start date - End date</p>
+    </div>
+  </main>
+  <footer>
+    <div id="footer">
+        <p id="disclaimer">
+            This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE,
+            FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One
+            Licensing B.V.
+        </p>
+    </div>
+  </footer>
+  </body>
+</html>

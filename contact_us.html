@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <title>F1 Schedule</title>
+  </head>
+  <body>
+  <header>
+    <nav id="nav-bar">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="live_schedule.html" class="nav-button">Schedule</a>
+        <a href="live_detail_info.html" class="nav-button">Detail info</a>
+        <a href="contact_us.html" class="nav-button">Contact us</a>
+    </nav>
+  </header>
+  <main>
+    <div class="main-content-frame">
+        <div class="horizontal-content">
+            <div class="contact-info">
+                <h1>Contact us</h1>
+                <h4>Call us</h4>
+                <p>0452 687 543</p>
+                <h4>Email</h4>
+                <p>info@example.com</p>
+                <h4>Address</h4>
+                <p>80 Goon St</p>
+            </div>
+            <div class="contact-form">
+                <form action="mailto:miles@noisyoyster.net" method="POST">
+                    <div class="vertical-content">
+                        <div class="horizontal-content">
+                            <div class="vertical-content">
+                                <label for="first_name">First Name:<span class="required">*</span></label>
+                                <input type="text" id="first_name" name="first_name" placeholder="First Name..." required="">
+                            </div>
+                            <div class="vertical-content">
+                                <label for="last_name">Last Name: <span class="required">*</span></label>
+                                <input type="text" id="last_name" name="last_name" placeholder="Last Name..." required="">
+                            </div>
+                        </div>
+                        <div class="horizontal-content">
+                            <div class="vertical-content">
+                                <label for="phone_number">Phone:<span class="required">*</span></label>
+                                <input type="number" id="phone_number" name="phone_number" placeholder="Phone..." required="">
+                            </div>
+                            <div class="vertical-content">
+                                <label for="email">Email:<span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="Email..." required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical-content">
+                        <label for="message">Message: <span class="required">*</span></label>
+                        <textarea id="message" rows="4" cols="50" required=""></textarea>
+                        <input type="submit" value="Submit" id="submit">
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <div id="footer">
+        <p id="disclaimer">
+            This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE,
+            FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One
+            Licensing B.V.
+        </p>
+    </div>
+  </footer>
+  </body>
+</html>

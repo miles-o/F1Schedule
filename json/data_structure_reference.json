@@ -1,0 +1,37 @@
+{
+  "int comp_id": {
+    "type": {
+      "id": 1858,
+      "competition": {
+        "id": "comp_id",
+        "name": "Track name",
+        "location": {
+          "country": "country",
+          "city": "city"
+        }
+      },
+      "circuit": {
+        "id": 2,
+        "name": "Track name",
+        "image": "track map image"
+      },
+      "season": "season",
+      "type": "type",
+      "laps": {
+        "current": null,
+        "total": null
+      },
+      "fastest_lap": {
+        "driver": {
+          "id": null
+        },
+        "time": null
+      },
+      "distance": null,
+      "timezone": "utc",
+      "date": "2024-03-01T16:00:00+00:00",
+      "weather": null,
+      "status": "Completed"
+    }
+  }
+}

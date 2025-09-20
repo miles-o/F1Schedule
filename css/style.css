@@ -1,0 +1,320 @@
+/*
+universal
+*/
+
+/*
+tags
+*/
+
+body {
+    font-family: inter, arial, serif;
+    font-size: 18px;
+    width: auto;
+    margin: auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    top: 0;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 2px;
+    margin-top: 15px;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 98%;
+    background-color: grey;
+    height: 2px;
+}
+
+/*
+content frames
+*/
+.main-content-frame {
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 10%;
+    min-height: 75vh;
+}
+
+.horizontal-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.vertical-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*
+nav bar
+*/
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nav-button {
+    float: left;
+    display: block;
+    color: black;
+    font-weight: 700;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: #9c0202;
+}
+
+/*
+footer
+*/
+#footer {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+#disclaimer {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 700;
+}
+
+
+/*
+page specific
+*/
+
+/*
+home page
+*/
+.second-content-frame {
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    width: 90%;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    padding: 2%;
+}
+
+.right-content {
+    float: right;
+    width: 30%;
+    margin: 10% 2%;
+}
+
+.content {
+    margin: 5%;
+    padding: 5%;
+}
+
+.main-page-poster {
+    border-radius: 10px;
+    width: 30%;
+    align-items: center;
+    margin: 5% 1%;
+}
+
+/*
+Detail info page
+*/
+.schedule {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    padding: 1%;
+}
+
+.schedule div {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.schedule h4 {
+    margin: 2px;
+
+}
+
+.schedule p {
+    margin: 2px;
+}
+
+.race-info {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    padding: 1%;
+}
+
+.race-info div {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.race-info p {
+    margin-top: 10px;
+}
+
+.race-info h4 {
+    margin: 2px;
+    margin-top: 30px;
+}
+
+.track-map {
+    margin: 2%;
+    width: 60%;
+}
+
+.dropdown-menu {
+    width: 70%;
+    margin: 10px 15%;
+    padding: 10px;
+}
+
+#races {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+}
+
+#race-dates {
+    width: 98%;
+    text-align: left;
+}
+
+/*
+schedule page
+*/
+.schedule-frame {
+    width: 90%;
+}
+
+.race-tile {
+    background-image: url("../images/track_map_placeholder.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 30%;
+    margin: 1.6%;
+    text-align: left;
+}
+
+.race-tile h4{
+    text-align: center;
+}
+
+.race-tile-info {
+    width: 70%;
+    margin: 45% 15% 15%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+/*
+contact us page
+*/
+.contact-form {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 40%;
+    margin: 5%;
+    align-items: center;
+}
+
+.contact-form label {
+    text-align: left;
+    margin: 5px;
+}
+
+.contact-form input {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.contact-form .vertical-content {
+    margin: 5%;
+    width: 90%;
+    height: 50%;
+}
+
+#submit {
+    font-size: 18px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+#message {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+    height: 150px;
+    padding: 10px 5px;
+    margin: 5%;
+    resize: none;
+}
+
+.contact-form .horizontal-content .vertical-content {
+    margin: 5%;
+    width: 40%;
+    padding: 0;
+}
+
+
+.contact-info {
+    width: 40%;
+    margin: 5%;
+}
+
+.required {
+    color: red;
+}
