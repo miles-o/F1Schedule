@@ -3,7 +3,7 @@ const url1 = 'https://api-formula-1.p.rapidapi.com/races?season=2025';
 const options = {
     method: 'GET',
     headers: {
-        'x-rapidapi-key': '40102f54a2msh4051040ccadbaf6p144a91jsn689ee7b24a8b',
+        'x-rapidapi-key': '',
         'x-rapidapi-host': 'api-formula-1.p.rapidapi.com'
     }
 };
